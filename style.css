@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+    
+}
+nav{
+    
+    background-color: black;
+    display: flex;
+     width: 100%;
+    height: 50px;
+    
+}
+nav ul {
+   
+    padding: 15px;
+    display: flex;   
+}
+nav ul a{
+    text-decoration: none;
+    justify-content: space-between;
+    align-items:normal;
+    margin: 10px;
+    color: azure;
+}
+.oi{
+    width: 19px;
+}
+.input{
+    height: 25px;
+    padding: 3px;
+    margin: 10px;
+    position: relative;
+    left: 855px;
+
+}
+.ou{
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+   margin-top: 10px;
+   align-items: end;
+   left: 50px;
+   position: relative;
+    left: 855px;
+}
+.one{
+    background-color: rgb(69, 233, 69);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: rgb(65, 138, 29);
+    justify-content: space-evenly;
+}
+.in{
+    color: rgb(214, 228, 228);
+    background-color: rgb(90, 110, 239);
+    width: 100px;
+    height: 50px;
+}
+.ui{
+    padding: 20px;
+  
+    text-align: center;
+}
+.box {
+   
+    
+   text-align: center;
+   justify-content: justify;
+    margin: 10px;
+    padding: 10px;      
+     
+}
+.box img{
+    width: 400px;
+    height: 450px;
+    border: 4px solid whitesmoke;
+    margin: 20px;
+    padding: 10px;
+}
+.box h4{
+    color: rgb(81, 81, 245);
+    padding: 10px;
+}
+.box h4:hover{
+    text-decoration: underline black;
+    
+    
+}
+.box p{
+    color: rgb(104, 115, 148);
+    text-align:center;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+    
+}
+.box img:hover{
+    box-shadow: 2px 4px 5px 7px lightgrey;
+}
+.row1{
+    display: flex;
+   
+    background-color: rgba(189, 103, 4, 0.944);
+    width: 100%;
+    height: 450px;   
+}
+.col1{
+    
+    text-align: center;
+   justify-content: justify;
+   margin: 10px;
+   padding: 10px;   
+}
+.col1 h4{
+    color: rgb(66, 6, 6);
+    text-align: center;
+}
+.col1 p{
+    color: antiquewhite;
+    text-align: justify;
+}
+.col1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    
+    background-color: rgb(196, 228, 217);
+       
+}
+.col1 img:hover{
+    box-shadow: 3px 22px 25px 22px burlywood;
+}
+
+
+.col1 button a{
+    
+    padding: 8px;
+    margin: 20px;
+  color: rgb(94, 94, 218);
+  text-decoration: none;
+    
+}
+.lo{
+    text-align: center;
+    padding: 20px;
+    
+}
+.lo a{
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+.lo h5{
+    padding: 20px;
+    color: rgb(40, 37, 37);
+}
